@@ -35,7 +35,7 @@ const inputHandler = () => {
   wordsNumberEl.textContent = numberOfWordds;
   charactersNumberEl.textContent = numberOfCharacters;
   twitterNumberEl.textContent = twitterCharactersLeft;
-  facebookCharactersLeft.textContent = facebookCharactersLeft;
+  facebookNumberEl.textContent = facebookCharactersLeft;
 };
 
 textareaEl.addEventListener("input", inputHandler);
